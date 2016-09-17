@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Circle{
+	
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		double r,perimeter,area;
+		System.out.println("请输入半径:");
+		r=Double.parseDouble(sc.nextLine());
+		perimeter=2*Math.PI*r;
+		area=Math.PI*r*r;
+		System.out.printf("半径=%.2f\n",r);
+		System.out.printf("周长=%.2f\n",perimeter);
+		System.out.printf("面积=%.2f\n",area);
+	}
+}
